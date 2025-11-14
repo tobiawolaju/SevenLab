@@ -116,10 +116,18 @@ ul {
 }
 
 .logo {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 700;
     color: var(--text-color);
+
+    /* Centering */
+    display: flex;
+    justify-content: center; /* horizontal center */
+    align-items: center;     /* vertical center */
+
+   
 }
+
 
 .header-right {
     display: flex;
