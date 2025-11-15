@@ -29,58 +29,75 @@
         </div>
     </header>
 
-    <main class="shop-page">
-        <div class="container shop-layout">
-            <div class="product-grid">
-                <div class="product-card">
-                    <div class="product-image-placeholder"></div>
-                    <h3>Full VitaSleeve Robot</h3>
-                    <p>The complete exosuit for comprehensive life support and mobility.</p>
-                    <div class="product-price">$5,000</div>
-                    <button class="btn btn-primary add-to-cart" data-name="Full VitaSleeve Robot" data-price="5000">Add to Cart</button>
-                </div>
-                <div class="product-card">
-                    <div class="product-image-placeholder"></div>
-                    <h3>Arm Module</h3>
-                    <p>A single, high-fidelity prosthetic arm replacement.</p>
-                    <div class="product-price">$600</div>
-                    <button class="btn btn-primary add-to-cart" data-name="Arm Module" data-price="600">Add to Cart</button>
-                </div>
-                <div class="product-card">
-                    <div class="product-image-placeholder"></div>
-                    <h3>Leg Module</h3>
-                    <p>A single, high-torque prosthetic leg for ambulation.</p>
-                    <div class="product-price">$800</div>
-                    <button class="btn btn-primary add-to-cart" data-name="Leg Module" data-price="800">Add to Cart</button>
-                </div>
-                <div class="product-card">
-                    <div class="product-image-placeholder"></div>
-                    <h3>Neural Interface Kit</h3>
-                    <p>The non-invasive headband for system control.</p>
-                    <div class="product-price">$300</div>
-                    <button class="btn btn-primary add-to-cart" data-name="Neural Interface Kit" data-price="300">Add to Cart</button>
-                </div>
-                <div class="product-card">
-                    <div class="product-image-placeholder"></div>
-                    <h3>Medical Add-on Pack</h3>
-                    <p>Advanced sensors and auto-dispensers for critical care.</p>
-                    <div class="product-price">$400</div>
-                    <button class="btn btn-primary add-to-cart" data-name="Medical Add-on Pack" data-price="400">Add to Cart</button>
-                </div>
+  <main class="shop-page">
+       <!-- Open-source info -->
+        <p style="margin: 2rem; color:#555;">
+            You can purchase fully-built VitaSleeve modules here, or access all open-source resources to build your own:
+            <a href="/opensource.html">Open-Source Downloads</a> (code, 3D models, circuit schematics)
+        </p>
+    <div class="container shop-layout">
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="product-image-placeholder"></div>
+                <h3>Full VitaSleeve Robot</h3>
+                <p>The complete exosuit for comprehensive life support and mobility.</p>
+                <div class="product-price">$5,000</div>
+                <button class="btn btn-primary add-to-cart" data-name="Full VitaSleeve Robot" data-price="5000">Add to Cart</button>
             </div>
-
-            <aside class="cart-summary-desktop">
-                <h2>Shopping Cart</h2>
-                <div id="cart-items-desktop">
-                    <p>Your cart is empty.</p>
-                </div>
-                <div class="cart-total">
-                    <h3>Total: <span id="cart-total-price-desktop">$0.00</span></h3>
-                </div>
-                <button class="btn btn-secondary" style="width: 100%;">Checkout</button>
-            </aside>
+            <div class="product-card">
+                <div class="product-image-placeholder"></div>
+                <h3>Arm Module</h3>
+                <p>
+                    A single, high-fidelity prosthetic arm replacement.
+                    Open-source version: <a href="/opensource/arm.zip">Download</a>
+                </p>
+                <div class="product-price">$600</div>
+                <button class="btn btn-primary add-to-cart" data-name="Arm Module" data-price="600">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <div class="product-image-placeholder"></div>
+                <h3>Leg Module</h3>
+                <p>
+                    A single, high-torque prosthetic leg for ambulation.
+                    Open-source version: <a href="/opensource/leg.zip">Download</a>
+                </p>
+                <div class="product-price">$800</div>
+                <button class="btn btn-primary add-to-cart" data-name="Leg Module" data-price="800">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <div class="product-image-placeholder"></div>
+                <h3>Neural Interface Kit</h3>
+                <p>
+                    The non-invasive headband for system control.
+                    Open-source guide: <a href="/opensource/neural.zip">Download</a>
+                </p>
+                <div class="product-price">$300</div>
+                <button class="btn btn-primary add-to-cart" data-name="Neural Interface Kit" data-price="300">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <div class="product-image-placeholder"></div>
+                <h3>Medical Add-on Pack</h3>
+                <p>
+                    Advanced sensors and auto-dispensers for critical care.
+                    Open-source schematics: <a href="/opensource/medical.zip">Download</a>
+                </p>
+                <div class="product-price">$400</div>
+                <button class="btn btn-primary add-to-cart" data-name="Medical Add-on Pack" data-price="400">Add to Cart</button>
+            </div>
         </div>
-    </main>
+
+        <aside class="cart-summary-desktop">
+            <h2>Shopping Cart</h2>
+            <div id="cart-items-desktop">
+                <p>Your cart is empty.</p>
+            </div>
+            <div class="cart-total">
+                <h3>Total: <span id="cart-total-price-desktop">$0.00</span></h3>
+            </div>
+            <button class="btn btn-secondary" style="width: 100%;">Checkout</button>
+        </aside>
+    </div>
+</main>
 
     <div class="cart-modal-overlay">
         <aside class="cart-summary-mobile">

@@ -1,6 +1,6 @@
 /* CSS Variables */
 :root {
-    --primary-color: #46dfa4;
+    --primary-color: #707070;
     --font-family: 'Poppins', sans-serif;
     --border-radius: 16px;
     --transition-speed: 0.3s;
@@ -527,7 +527,7 @@ body[data-theme='light'] .moon-icon { display: none; }
 
 .product-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 1.5rem;
 }
 
@@ -548,7 +548,7 @@ body[data-theme='light'] .moon-icon { display: none; }
 .product-image-placeholder {
     width: 100%;
     aspect-ratio: 1 / 1;
-    background: #333;
+    background: #72727218;
     border-radius: 8px;
     margin-bottom: 1rem;
 }
