@@ -1,6 +1,6 @@
 /* CSS Variables */
 :root {
-    --primary-color: #707070;
+    --primary-color: #ff5100;
     --font-family: 'Poppins', sans-serif;
     --border-radius: 0px;
     --transition-speed: 0.3s;
@@ -18,7 +18,7 @@
     bottom: 0; /* adjust to move closer/further from text */
     width: 100%;
     height: 4px; /* thickness of underline */
-    background: linear-gradient(90deg, #46dfa4, #f9d423, #f36f8f, #4facfe);
+    background: linear-gradient(90deg, #ff5100, #ffa600, #ff5100, #ff00f2);
     border-radius: 2px; /* rounded edges optional */
 }
 
